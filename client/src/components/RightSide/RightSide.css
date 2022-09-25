@@ -1,0 +1,32 @@
+.RightSide {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.navIcons {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.navIcons>a>svg,
+.navIcons>svg {
+    width: 2rem;
+    padding: 6px;
+}
+
+.navIcons>a>svg:hover,
+.navIcons>svg:hover {
+    background-color: orange;
+    border-radius: 10px;
+}
+
+
+
+.r-button {
+    height: 3rem;
+    width: 80%;
+    justify-self: center;
+    align-self: center;
+}
